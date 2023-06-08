@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{467D9297-6D43-487A-8345-2AAC59DC2F65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{467D9297-6D43-487A-8345-2AAC59DC2F65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPatternTests", "AdapterPatternTests\AdapterPatternTests.csproj", "{EF57A893-3C73-4F97-8665-AB025CE8DAA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPatternTests", "AdapterPatternTests\AdapterPatternTests.csproj", "{EF57A893-3C73-4F97-8665-AB025CE8DAA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy Pattern", "Proxy Pattern\Proxy Pattern.csproj", "{DAD5A2BD-2B47-47BB-8B64-D06B356D6B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPatternTests", "ProxyPatternTests\ProxyPatternTests.csproj", "{1B5D402F-4C65-4B53-89B7-44A49804BE54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{EF57A893-3C73-4F97-8665-AB025CE8DAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF57A893-3C73-4F97-8665-AB025CE8DAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF57A893-3C73-4F97-8665-AB025CE8DAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD5A2BD-2B47-47BB-8B64-D06B356D6B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD5A2BD-2B47-47BB-8B64-D06B356D6B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD5A2BD-2B47-47BB-8B64-D06B356D6B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD5A2BD-2B47-47BB-8B64-D06B356D6B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5D402F-4C65-4B53-89B7-44A49804BE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5D402F-4C65-4B53-89B7-44A49804BE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5D402F-4C65-4B53-89B7-44A49804BE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5D402F-4C65-4B53-89B7-44A49804BE54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
