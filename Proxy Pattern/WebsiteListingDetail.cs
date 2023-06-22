@@ -28,5 +28,18 @@ namespace Proxy_Pattern
             Console.WriteLine($"Listing address is {_websiteListingDetail.GetListingAddress()}");
         }
 
+        public void DisplayVendorDetails(bool isUserPrimaryAgent)
+        {
+            if (isUserPrimaryAgent)
+            {
+                Console.WriteLine($"Listing vendor is {_websiteListingDetail.GetListingVendorDetails()}");
+            }
+            else
+            {
+                Console.WriteLine("Access denied!!");
+            }
+
+        }
+
     }
 }

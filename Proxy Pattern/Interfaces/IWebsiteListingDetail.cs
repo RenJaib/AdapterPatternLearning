@@ -10,5 +10,6 @@ namespace Proxy_Pattern.Interfaces
     {
         int GetListingNumber();
         string GetListingAddress();
+        string GetListingVendorDetails();
     }
 }

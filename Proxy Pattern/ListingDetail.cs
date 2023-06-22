@@ -22,11 +22,25 @@ namespace Proxy_Pattern
 
         public int GetListingNumber()
         {
+            if (_listingNumber == 0)
+            {
+                throw new Exception("Listing number is invalid.");
+            }
             return _listingNumber;
         }
 
         public string GetListingAddress()
         {
+            if (string.IsNullOrEmpty(_listingAddressStreet))
+            {
+                throw new Exception("Listing AddressStreet cannot be empty or null");
+            }
+
+            if (_listingAddressStreet.Length > 25)
+            {
+                throw new Exception("AddressStreet exceed max length of 25");
+            }
+
             return _listingAddressStreet;
         }
 
